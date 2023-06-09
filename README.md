@@ -47,7 +47,7 @@ The results on three regions are shown bellow where _South Africa_ is only used 
 
 ## Data Fusion Contest 2020 Dataset
 
-The Data Fusion Contest Dataset is made for multi-class remote sensing image segmentation. However, as this project aim is to investigate MAML few-shot classification, a self-supervised training approach is chosen. Hence, during training contrastive classes are used and the real classes are adapted to and used during testing.
+The Data Fusion Contest Dataset is made for multi-class remote sensing image segmentation. However, as this project aim is to investigate MAML few-shot classification, a self-supervised training approach is chosen. Hence, during training contrastive classes are used and the real classes are adapted to and used during testing where is image class is the most present one on the image.
 <br>
 As for the floating object dataset, the contrastive classes are created based on geographical localisation. As the dataset is already separated in tiles, those will be the "shots" of each contrastive class. To limit the inter-class similarity, a safety maring is added to have sufficient distances between the contrastive classes. To increase the number tasks, each region is used multiple time to randomly select constrastive classes on each region.
 
