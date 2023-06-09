@@ -81,3 +81,6 @@ For comparison purposes, a simple ResNet model trained using the labels is used.
     <td> 67.95</td>
   </tr>
 </table>
+
+# Note
+The data are assumed to be located in: DATA\DFC\DFC_Public_Dataset\ROIs0000_... folders or DATA\FO_DATA\base_image
